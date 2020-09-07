@@ -39,11 +39,11 @@ const About = () => {
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
                   {paragraphOne ||
-                    'I am a Software Developer with enthusiasm and focus on both frontend and backend development'}
+                    'I am a Software Developer with enthusiasm and focus on frontend development'}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'I am a collaborative team player with excellent technical, soft and problem-solving skills.Likewise, I am passionate about building highly performant scalable software solutions'}
+                    "I am a collaborative team player with excellent technical, soft and problem-solving skills. Likewise, I'm passionate about building highly performant scalable software solutions"}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Feel free to contact me via email at any time'}

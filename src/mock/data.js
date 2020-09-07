@@ -48,6 +48,26 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'Board-game.png',
+    title: 'Turn Based Board-Game',
+    info:
+      'By implementing a resusable JavaScript application architecture as well as the jQuery, I was able to build a game whereby for each turn, a player can move from one to three boxes (horizontally or vertically) before ending their turn. The players are unable to pass through obstacles directly and if a player passes over a box containing a weapon, they leave their current weapon on site and replace it with the new one. And when players cross over adjacent squares (horizontally or vertically), a battle begins. The game was built using object-oriented programming.',
+    info2: '',
+    url: 'https://royal-rumble.netlify.app/',
+    repo: 'https://github.com/Tekcoder/game-project', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'Cats-o-ville.png',
+    title: 'Cats Filtering App',
+    info:
+      'A React application whereby users are able to filter their favorite cats in the search box based on the inputted letters',
+    info2: '',
+    url: 'https://cats-ville.netlify.app/',
+    repo: 'https://github.com/Tekcoder/cats-ville', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'chalets.png',
     title: 'Chalets & Caviar',
     info:
