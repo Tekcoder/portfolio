@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info2, info, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -44,10 +44,10 @@ const Projects = () => {
                       <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                       <div>
                         <p>
-                          {info ||
+                          {info2 ||
                             'A minimal website for a Chalets agency in Aspen, Colorado. It entails using the website to secure rentage for both sellers and leasers.'}
                         </p>
-                        <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">{info || ''}</p>
                       </div>
                       <a
                         target="_blank"

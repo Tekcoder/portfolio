@@ -32,7 +32,8 @@ export const projectsData = [
     title: 'Phone E-commerce Store',
     info:
       'A React app which implemented all the core features of an e-commerce site that sells cell phones. A user is able to add to cart and continue shopping on the main site. React router enables easy navigation between the pages.',
-    info2: '',
+    info2:
+      'Technologies used: React, React-DOM, Redux, React-Router, Styled-Components, Css-Animations',
     url: 'https://react-marketplace-phone-store.netlify.com',
     repo: 'https://github.com/Tekcoder/ecommerce-phone-store', // if no repo, the button will not show up
   },
@@ -42,7 +43,8 @@ export const projectsData = [
     title: 'Restaurant review site',
     info:
       "By using Google maps API, a user is able to generate a map, and immediately a marker is placed on the user's location. The user is able to write reviews and rate the various restaurants that are displayed through the use of Google Places API. Last but not the least, the Google Street view allows viewing the way the restaurant in real live",
-    info2: '',
+    info2:
+      'Technologies used: Google JavaScript API, jQuery, Google Places API, Google StreetView API, CSS, Bootstrap',
     url: 'https://eatery-review.netlify.app/',
     repo: 'https://github.com/Tekcoder/restaurant-review-site', // if no repo, the button will not show up
   },
@@ -51,8 +53,8 @@ export const projectsData = [
     img: 'Board-game.png',
     title: 'Turn Based Board-Game',
     info:
-      'By implementing a resusable JavaScript application architecture as well as the jQuery, I was able to build a game whereby for each turn, a player can move from one to three boxes (horizontally or vertically) before ending their turn. The players are unable to pass through obstacles directly and if a player passes over a box containing a weapon, they leave their current weapon on site and replace it with the new one. And when players cross over adjacent squares (horizontally or vertically), a battle begins. The game was built using object-oriented programming.',
-    info2: '',
+      'By implementing a resusable JavaScript application architecture, I was able to build a game whereby for each turn, a player can move from one to three boxes (horizontally or vertically) before ending their turn. The players are unable to pass through obstacles directly and if a player passes over a box containing a weapon, they leave their current weapon on site and replace it with the new one. And when players cross over adjacent squares (horizontally or vertically), a battle begins',
+    info2: 'Technologies used: jQuery, Object-Oriented Programming, Bootstrap, MVC Architecture ',
     url: 'https://royal-rumble.netlify.app/',
     repo: 'https://github.com/Tekcoder/game-project', // if no repo, the button will not show up
   },
@@ -62,7 +64,7 @@ export const projectsData = [
     title: 'Cats Filtering App',
     info:
       'A React application whereby users are able to filter their favorite cats in the search box based on the inputted letters',
-    info2: '',
+    info2: 'Technologies used: React, React-DOM, Cats API, Robots API, CSS',
     url: 'https://cats-ville.netlify.app/',
     repo: 'https://github.com/Tekcoder/cats-ville', // if no repo, the button will not show up
   },
@@ -72,7 +74,8 @@ export const projectsData = [
     title: 'Chalets & Caviar',
     info:
       'A WordPress site for a Chalets agency in Aspen, Colorado. It entails using the website to secure rentage for both sellers and leasers.',
-    info2: '',
+    info2:
+      'Technologies and Tools used: WordPress Theme, Estatik Home Plugin, WordPress Customization, WordPress Project Documentaion,  ',
     url: 'http://dev-chalets-and-caviar-project1.pantheonsite.io/',
     repo: 'https://github.com/Tekcoder/Wordpress-Project/', // if no repo, the button will not show up
   },
@@ -82,7 +85,7 @@ export const projectsData = [
     title: 'Boston Film Festival',
     info:
       'A website for an outdoor film festival in Boston called ‘Watch it outside Boston edition’. They hope to select and show films from August 5th to 8th in Boston Public Garden, a park in Boston that can hold up to 1,500 people.',
-    info2: '',
+    info2: 'Technologies used: Bootstrap, CSS',
     url: 'https://boston-film-festival.netlify.app/',
     repo: 'https://github.com/Tekcoder/Film-Festival-Bootstrap', // if no repo, the button will not show up
   },
@@ -92,7 +95,7 @@ export const projectsData = [
     title: 'Amazing Quote generator',
     info:
       'A quote generator app that randomly generates two different categories of quotes: belief and success. The quotes generated are relatively coherent and the user is able to select from a range of 1 and 5',
-    info2: '',
+    info2: 'Technologies used: JavaScript, Quotes API, Array Looping Methods',
     url: 'https://amazing-quotes-generator.netlify.app/',
     repo: 'https://github.com/Tekcoder/quote-generator', // if no repo, the button will not show up
   },
